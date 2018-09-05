@@ -1,16 +1,20 @@
 {
-    "name": "p2p-video-chat-webrtc",
-    "version": "0.1.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "start": "budo index.js:bundle.js"
-    },
-    "author": "Diego",
-    "devDependencies": {
-        "budo": "^4.2.2"
-    },
-    "dependencies": {
-        "simple-peer": "^5.11.4"
-    }
+  "name": "simplewebrtc-messenger",
+  "version": "1.0.0",
+  "description": "A tutorial on building a WebRTC video chat app using SimpleWebRTC.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "handlebars": "^4.0.12",
+    "jquery": "^3.3.1",
+    "semantic-ui-css": "^2.3.3",
+    "simplewebrtc": "^3.0.2"
+  }
 }
